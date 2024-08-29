@@ -16,3 +16,6 @@ div{
     justify-items: left;
     float: left;
 }
+b{
+    justify-content: center;
+}
