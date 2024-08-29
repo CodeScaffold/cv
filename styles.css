@@ -1,0 +1,18 @@
+body{
+    margin : auto;
+    padding : 25px 25px 25px 25px;
+    background-color: aliceblue;
+
+}
+
+img{
+    mask-image: fill-box;
+    border: 10cap;
+    clip-path: circle(40%);
+}
+
+div{
+    display: block;
+    justify-items: left;
+    float: left;
+}
