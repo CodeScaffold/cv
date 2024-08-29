@@ -17,5 +17,8 @@ div{
     float: left;
 }
 b{
-    margin : 0px 0px 0px 100px;
+    margin-top: 125%;
+    font-size: large;
+    font-weight: 500;
+    
 }
