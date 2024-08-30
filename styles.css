@@ -1,24 +1,47 @@
-body{
-    margin : auto;
-    padding : 50px 50px 50px 50px;
-    background-color: aliceblue;
+.heading{
+    background-color: rgb(0, 124, 177);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing:inherit;
+    font-weight: 400;
+    font-style: normal;
+    font-size:large;
+    padding: 1px;
+    text-align: center;
 
 }
 
-img{
+.body{
+    margin : 15px 0px 25px 0px;
+    padding : 25px 25px 25px 25px;
+    background-color: rgb(147, 202, 251);
+}
+.main{
+    margin : 1px 0px 5px 0px;
+    padding : 25px 25px 25px 25px;
+    background-color: rgb(230, 243, 255);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer{
+    margin : 1px 0px 5px 0px;
+    padding : 25px 25px 25px 25px;
+    background-color: rgb(0, 124, 177);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.img{
     mask-image: fill-box;
     border: 10cap;
     clip-path: circle(40%);
 }
+.quote{
+    font-family: "Spirax", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
-div{
-    display: block;
-    justify-items: left;
-    float: left;
-}
-b{
-    margin-top: 125%;
-    font-size: large;
-    font-weight: 500;
-    
-}
+
