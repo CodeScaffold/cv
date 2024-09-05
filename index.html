@@ -3,67 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles.css" rel="stylesheet" />
-    <title>Arash Kosari</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Spirax&display=swap" rel="stylesheet">
-    
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./newstyle.css">
 </head>
-<body>
-    <div display="flex" class="heading">
-        <img src="./Images/Cv_image.jpg" alt="Avatar" height="175" />
-        <h1>Arash Kosari</h1>
-        
-    </div>    
-    <div  class="body">
-        <h2>Profile:</h2>
-        <p>A skilled web developer with extensive experience in HTML, CSS, JavaScript, and TypeScript. Passionate about creating responsive, user-friendly web interfaces and enhancing user experience through clean, efficient code. Adept at both front-end development and collaboration with cross-functional teams to deliver high-quality digital solutions.</p>
-    </div>
-            
-            <div class="main">
-            <h2>Contact Information:</h2>
-            <ul>
-                <li>Email: arashdevko@gmail.com</li>
-                <li>Phone: +90 542 104 51 30</li>    
-                <li>Location: Istanbul, Turkey</li>   
-            </ul>
-            <h2>Work Experience:</h2>
-                <h3>Web Developer | Startup Company | Istanbul, Turkey</h3>
-                <h3>2016 – 2022</h3>
+<body class="body">
+    <div class="bd-example body ">
+        <div class="row" >
+          <div class="col-4">
+            <div id="list-example" class="list-group">
+              <a class="list-group-item list-group-item-action active" href="#list-item-1"><b>Profile</b></a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1"><b>Work Experience</b></a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1-1" style="padding-left: 45px;">Augest 2016 – November 2022</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1-2" style="padding-left: 45px;">December 2021 – April 2022</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1-3" style="padding-left: 45px;">September 2018 – August 2020</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1-4" style="padding-left: 45px;">July 2013 – February 2016</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-1-1-5" style="padding-left: 45px;">December 2017 – July 2018</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2"><b>Skills</b></a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2-1" style="padding-left: 45px;">Technical</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2-2" style="padding-left: 45px;">Professional</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-3"><b>Languages</b></a>
+              <a class="list-group-item list-group-item-action" href="#list-item-4"><b>Education</b></a>
+              <a class="list-group-item list-group-item-action" href="#list-item-5"><b>Contact Information</b></a>
+
+            </div>
+          </div>
+          <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" style="padding: 40px; margin: 40px">
+                <h4 id="list-item-1"> <h2>Arash Kosari</h2></h4>
+                <p>A skilled web developer with extensive experience in HTML, CSS, JavaScript, and TypeScript. Passionate about creating responsive, user-friendly web interfaces and enhancing user experience through clean, efficient code. Adept at both front-end development and collaboration with cross-functional teams to deliver high-quality digital solutions.</p>
+                <h4 id="list-item-1-1">Work Experience:</h4>
+                <h4 id="list-item-1-1-1">Augest 2016 – November 2022</h4>
+                    <h3>Web Developer | Startup Company | Istanbul, Turkey</h3>
                     <ul>
                         <li>Designed and developed responsive websites and web applications.</li>
                         <li>Collaborated with the design team to create visually appealing user interfaces.</li>    
                         <li>Implemented front-end features using HTML, CSS, JavaScript, and TypeScript.</li>     
                         <li>Optimized websites for performance, accessibility, and SEO.</li>     
                     </ul>
-                <h3>Farsi Transcription Freelancer | Verbit.ai</h3>
-                <h3>December 2021 – April 2022</h3>
+                <h4 id="list-item-1-1-2"> December 2021 – April 2022</h4>
+                <h3>Persian Transcription Freelancer | Verbit.ai</h3>
                     <ul>
                         <li>Transcribed Persian audio and video content for enhanced search engine visibility.</li>
                         <li>Contributed to improving the overall user experience on the platform by ensuring accurate and clear transcriptions.</li>
                     </ul>
-                <h3>Sales Team | Shabdiz IT Center | Karaj, Iran</h3>
-                <h3>September 2018 – August 2020</h3>
-                    <ul>
-                        <li>Engaged with customers to introduce and recommend technology products, including web development tools.</li>
-                        <li>Provided technical support and solutions for customers, helping them select the right products for their needs.</li>
-                    </ul>
+                <h4 id="list-item-1-1-3">September 2018 – August 2020</h4>
+                    <h3>Sales Team | Shabdiz IT Center | Karaj, Iran</h3>
+                        <ul>
+                            <li>Engaged with customers to introduce and recommend technology products, including web development tools.</li>
+                            <li>Provided technical support and solutions for customers, helping them select the right products for their needs.</li>
+                        </ul>
+                <h4 id="list-item-1-1-4">July 2013 – February 2016</h4>
                 <h3>Founder and Manager | Eiffel Group Technical Services Office | Karaj, Iran</h3>
-                <h3>July 2013 – February 2016</h3>
                     <ul>
                         <li>Managed the development and maintenance of company websites and internal systems.</li>
                         <li>Oversaw office operations, including the implementation of new web-based tools and software.</li>
-                    </ul>
+                    </ul>    
+                    <h4 id="list-item-1-1-5">December 2017 – July 2018 </h4>
                 <h3>Financial Auditor | Hadaf Concours School | Karaj, Iran</h3>
-                <h3>December 2017 – July 2018</h3>	
                     <ul>
                         <li>Developed and maintained the school’s financial tracking system using web-based solutions.</li>
                         <li>Ensured the accuracy of financial data by implementing automated processes.</li>
                     </ul>
-            <h2>Skills:</h2>
-                <h3>Technical:</h3>
+                <h4 id="list-item-2">Skills:</h4>
+                <h4 id="list-item-2-1">Technical:</h4>
                 <ul>
                     <li>HTML, CSS, JavaScript, TypeScript</li>
                     <li>Responsive Web Design</li>
@@ -71,41 +74,48 @@
                     <li>Web Performance Optimization</li>
                     <li>SEO Best Practices</li>
                 </ul>
-                <h3>Professional:</h3>
-                    <ul>
-                        <li>Team Collaboration</li>
-                        <li>Project Management</li>
-                        <li>Problem Solving</li>
-                        <li>Communication and Networking</li>
-                        <li>Customer Engagement</li>
-                    </ul>
-            <h2>Languages:</h2>
+                <h4 id="list-item-2-2">Professional:</h4>
+                <ul>
+                    <li>Team Collaboration</li>
+                    <li>Project Management</li>
+                    <li>Problem Solving</li>
+                    <li>Communication and Networking</li>
+                    <li>Customer Engagement</li>
+                </ul>
+                <h4 id="list-item-3">Languages:</h4>
                 <ul>
                     <li>Persian: Native</li>
                     <li>English: Fluent (Speaking, Reading, Writing, Listening)</li>
                 </ul>
-            <h2>Education:</h2>
-                <h3>Bachelor’s in Accountancy</h3>
-                <h3>Qazvin Islamic Azad University, Qazvin, Iran<br />
-                    2006 – 2010
-                </h3>
-                <h3>Diploma in Computer Graphics</h3>
-                <h3>Tehran Institute of Technology, Tehran, Iran<br />
-                    2006
-                </h3>
+                <h4 id="list-item-4">Education:</h4>
+                <ul>
+                    <li>Bachelor’s in Accountancy</li>
+                    <li>Qazvin Islamic Azad University, Qazvin, Iran<br />
+                        2006 – 2010
+                    </li>
+                    <li>Diploma in Computer Graphics</li>
+                    <hli>Tehran Institute of Technology, Tehran, Iran<br />
+                        2006
+                    </li>
+                </ul>
+                <h4 id="list-item-5">Contact Information:</h4>
+                <ul>
+                    <li>Email: arashdevko@gmail.com</li>
+                    <li>Phone: +90 542 104 51 30</li>    
+                    <li>Location: Istanbul, Turkey</li>   
+                </ul>
+
+                <h4>“What is comfortable is rarely profitable.” – Robert Arnott</h4>
                 </div>
-                <div class="footer">
-            <h2>Personal Statement:</h2>
-                <p>I am passionate about leveraging my technical skills in web development to create intuitive and visually appealing digital experiences.
-                    My goal is to continuously evolve in the field of web design, crafting solutions that not only meet but exceed user expectations.
-                </p>
-                </div>
-                <div class="quote">
-            <h3>“In investing, what is comfortable is rarely profitable.” – Robert Arnott</h3>
+            </div>
+          </div>
+          <img class="img" src="./Images/Cv_image.jpg" alt="Avatar" height="100" />
         </div>
-    </body>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Spirax&display=swap" rel="stylesheet">
+
+      </div>
+
+      
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
